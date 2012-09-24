@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+    <!--
+    Zack Wyatt
+    Visual Frameworks
+    Week 4 Project 4
+    Web App
+    -->
+<html>
+        
+    <head>
+        <title>Git Fit</title>
+        <meta name="charset" content = "utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name= "viewport" content="user-scalable=no, width=device-width" />
+        <meta name="description" content="Git Fit! Stay Fit!" />
+        <meta name="keywords" content = "fit, workout, zack wyatt, vfw" />
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Get Fit</a></h1>
+        </header>
+        <nav>
+            <a href= "additem.html" id= "addNew" style= "display:none">Add</a>
+            <a href="#" id= "clear">Clear</a></br>
+            <a href="#" id= "view">View Progress</a>
+        </nav>
+        <form action="#" method="post" id="workForm">
+            <fieldset><legend>Add a Workout</legend>
+                <ul id= "errors"></ul>
+                <ul id= "questions">
+                    <li><label for="date">Date: </label> <input type="date" id="date" placeholder="day/month/year" /></li>
+                    <li><label for="name">Name:</label> <input type="text" id="name" /></li>
+                    <li><label for="currentWeight">Current Weight:</label> <input type="text" id="currentWeight" /></li>
+                    <li id="sex"><label for="sex">Gender:</label></li>
+                </ul>
+                        <ul
+                            <li><input type="radio" value="Female" id="female" name="sex" /><label for="female">Female</label></li>
+                            <li><input type="radio" value="Male" id="male" name="sex" /><label for="male">Male</label></li>
+                        </ul>
+            </fieldset>
+                       
+            <fieldset>
+                        <ul id= "questions"></ul>
+                        <li id="select"><label for="workout">Type of Workout:</br></label></li>                     
+                      <li><label for="reps">Reps:<br></label>1. Bulk<input type="range" min="1" max="15" name="reps" type="reps" id="reps" />15. Tone</li>
+                            <li><label for="comments">Notes:<br></label> <textarea id="comments" /></textarea></li>
+            </fieldset>
+            <input type="button" value="Good Job!" id="submit" />
+          </form>
+        <script src="js/json.js" type="text/javascript"></script>
+         <script src= "js/main.js" type="text/javascript"></script>
+         <link href="css/styles.css" rel="stylesheet" type= "text/css" />
+    </body>
+</html>
