@@ -1,0 +1,113 @@
+//Project 4 Week 4
+//Visual Frameworks
+//stylesheet css
+
+html{
+    
+}
+body{
+    letter-spacing: 0.025em;
+    background-color: #f4ad14;
+}
+
+h1{
+
+	font: 30px helvetica;
+	margin: 20px 10px;
+	padding: 10px;
+	font-weight: bold;
+	width: 300px;
+	color: #242e30;
+        text-align: center;
+        border: solid 1px;
+        background-color: #cfcfcf;
+        
+        
+
+}
+
+nav{
+    text-align: left;
+    font-size: 10px;
+}
+
+a{
+	font: 20px Arial;
+	margin: 20px 10px;
+	color: #0d3dcf;
+    
+}
+
+a:hover{
+	color: #ffffff;
+}
+
+fieldset{
+	font: 18px times ;
+	margin: 30px 10px;
+	background: #cfcfcf;
+
+}
+
+label{
+	color: #000000;
+	padding-top: 10px
+}
+
+legend{
+    text-align: center;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#errors{
+    font-size: large;
+    font-style: italic;
+    color: #fe0d0d;
+}
+
+#items{
+    font-family: sans-serif;
+    letter-spacing: 0.025em;
+    border: solid 1px;
+    background-color: #cfcfcf;
+    text-align: left;
+}
+
+header{
+    text-align: left;
+    padding: -20px;
+}
+#submit{
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#submit:hover, #submit:focus{    
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+   
+    
+}
+
+#submit{
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+ul, menu, dir{
+    border: solid 1px;
+}
